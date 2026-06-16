@@ -49,6 +49,7 @@ pyOptions = [
 specOptions = [
     "--ascii",
     "-a",
+    "--paths <FILEPATHS>",
     "--upx-dir <UPX_DIR>",
 ]
 pyOptionKeys = [i.split()[0] for i in pyOptions]
